@@ -1,0 +1,115 @@
+.App,
+.rules-container {
+  text-align: center;
+  color: white;
+}
+
+.App {
+  height: 100vh;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #1F253D;
+  border-radius: 0.3rem;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a {
+  color: white;
+}
+main {
+  padding-top: 3rem;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  display: block;
+  height: 3rem;
+  background-color: #cc324b;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.guessing-form {
+  max-width: 45%;
+  margin: 2rem auto;
+  border-radius: 0.3rem; 
+}
+
+.user-interface {
+  height: 17rem;
+  background-color: #394264; 
+}
+
+.user-interface input, 
+.user-interface button {
+  text-align: center;
+  height: 3rem;
+  font-size: 2rem;
+  margin: 2rem 0; 
+  width: 75%;
+}
+
+.user-interface input {
+  background-color: #50597b;
+  border: solid 1px #1f253d;
+}
+
+.user-interface button {
+  display: block;
+  margin: 0 auto;
+}
+
+.guess-display {
+  font-size: 1.8rem;
+  margin: 2rem auto;
+}
+
+.guess-number {
+  color: #f39c12;
+  font-size: 2.5rem;
+}
+
+.history-display {
+  height: 3rem;
+  background-color: #11a8ab;
+  border-bottom-left-radius: 4px; 
+  border-bottom-right-radius: 4px;
+  overflow: auto;
+}
+
+.history-display ul {
+  display: flex;
+}
+
+.history-display li {
+  background-color: pink;
+  border: 1px solid pink;
+  border-radius: 0.1rem;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  list-style: none;
+}
